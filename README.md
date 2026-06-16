@@ -20,7 +20,7 @@ This project demonstrates a realistic blue-team workflow:
 |---|---|
 | **Splunk Enterprise** | SIEM — log ingestion, search, alerting |
 | **Linux VM** | Attack target / log source |
-| **Port Forwarder** | Ships `/var/log/auth.log` (or `secure`) to Splunk |
+| **Port Forwarder** | Ships `/var/log/auth.log` to Splunk |
 | **Hydra / Medusa** *(or manual)* | SSH brute-force simulation tool |
 
 ---
